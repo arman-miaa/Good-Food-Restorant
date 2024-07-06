@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* font-family: "Work Sans", sans-serif; */
+.btn{
+    padding: 21px 32px 21px 32px;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+cursor: pointer;
+
+background: rgb(82, 195, 3);
+border: none;
+}
+.btn-content{
+    text-align: center;
+}
+#hero{
+    height: 919px;
+    background-image: linear-gradient(
+        0deg,
+     rgb(16, 16, 16) -19.5%,
+     rgba(16, 16, 16, 0) 100%
+     ),
+     url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    width: 1023px;
+    
+}
+.hero-content .subtitle{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 16px 0;
+
+}
+
+.hero-content .title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px 0;
+}
+.hero-content .description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 32px;
+}
+
+#card-box{
+    width: 1320px;
+    margin: 167px auto;
+
+}
+
+#card-box .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+.card-container{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Work Sans", sans-serif;
+    
+}
+.card{
+    max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .img-box{
+    width: 424px;
+}
+.card .img-box img{
+    width: 100%;
+}
+
+.card .shop{
+    background-color: aqua;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+}
+.about-us{
+    height: 671px;
+    display: flex;
+    flex-direction: row;
+}
+.about-us .img2{
+    width: 50%;
+}
+
+.about-us .text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.about-us .text .heading1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+width: 805px;
+height: 128px;
+margin-top: 136px;
+}
+
+.about-us .text .para1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.6;
+margin-top: 24px;
+}
+
+.about-us .text .follow{
+padding: 30px 10px 30px 10px;
+/* margin: 48px 0px; */
+box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+width: 100%;
+text-align: center;
+margin-top: 48px;
+}
+
+.about-us .text .follow span{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.about-us .social{
+    margin-top: 32px;
+    display: flex;
+}
+.about-us .social img{
+    width:50px;
+    margin-left: 10px;
+ 
+
+}
+
+.last-section{
+    background: url(../assets/background.png);
+    width: 1932px;
+height: 671px;
+margin-top: 130px;
+}
+.last-content{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
